@@ -1,0 +1,93 @@
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: wheat;
+
+}
+.logo{
+    width: 200px;
+    margin-right: 5px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    align-items: center;
+}
+.objects{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+}
+.emailText{
+    margin-right: 20px;
+
+}
+.campaigns{
+    margin-right: 20px;
+}
+.help{
+    margin-right: 20px;
+}
+.bunch1,.bunch2,.bunch3{
+    display: flex;
+    flex-direction: row;
+}
+.initial img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.initial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
+   
+}
+.btn button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    color: azure;
+    background-color: #7A4495;
+}
+.credits:hover{
+    background-color: #B270A2;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logout{
+    margin-top: 30px;
+}
+.logout button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #8FE3CF;
+    border: none;
+    border-radius: 10px;
+}
+.logoutButton{
+    font-size: 20px;
+}
+.logout button:hover{
+    background-color: #256D85;
+    transition: all 0.3s;
+    cursor: pointer;
+}

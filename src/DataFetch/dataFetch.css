@@ -1,0 +1,77 @@
+.modelOverlay{
+    position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  transition: opacity 250ms ease;
+  background: rgb(0,0,0,0.75);
+  -webkit-box-shadow: 2px 0px 15px -3px #000000; 
+box-shadow: 2px 0px 15px -3px #000000;
+}
+.modalContainer{
+    margin: auto;
+  width: 90%;
+  max-width: 40rem;
+  height: 500px;
+  
+  background-color: white;
+  border-radius: 1.5rem;
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+.inputElement,.selection{
+    padding: 10px;
+   
+}
+.selection{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.uploadText{
+    font-size: 24px;
+    font-weight: 200;
+    margin-right: 30px;
+}
+.selectionTitle{
+    margin-right: 165px;
+}
+.companyName{
+    margin-right: 100px;
+}
+.companyWebsite{
+    margin-right: 187px;
+}
+.Email{
+    margin-right: 213px;
+}
+.LinkedIn{
+    margin-right: 184px;
+}
+.titleSelection{
+    margin-bottom: 20px;
+}
+.cancel{
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#607EAA ;
+    border: none;
+    font-size: 18px;
+    color: antiquewhite;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cancel:hover{
+    background-color: #1C3879;
+    transition: all 0.2s;
+    cursor: pointer;
+}
