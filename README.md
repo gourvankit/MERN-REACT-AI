@@ -1,4 +1,22 @@
 # Getting Started with Create React App
+React AI app starts with the authentication using Google and on successfull login takes you to the home page. It then requires the company details which you are going to apply for and stores the data in the database(MongoDB) and fetches the data on the page. On choosing the company you will be taken to the page where you will be shown various Email samples(ML can be used for writing Email) along with their respective scores to decide which is suitable for you to send.
+
+Landing Page
+<img width="1440" alt="Screenshot 2022-08-06 at 5 56 45 PM" src="https://user-images.githubusercontent.com/73584740/183249037-a29c9e79-6d7e-4d24-8b2f-75366732275b.png">
+
+Home Page
+<img width="1440" alt="Screenshot 2022-08-06 at 6 09 00 PM" src="https://user-images.githubusercontent.com/73584740/183249314-7217bf0e-39fa-4831-9719-52cbce62b453.png">
+
+Email Page
+<img width="1440" alt="Screenshot 2022-08-06 at 6 11 47 PM" src="https://user-images.githubusercontent.com/73584740/183249685-8dfb84d0-5800-4997-935e-21d3b186db67.png">
+
+New Email Modal
+<img width="1440" alt="Screenshot 2022-08-06 at 6 11 59 PM" src="https://user-images.githubusercontent.com/73584740/183249723-043c6adf-876a-4e7b-ac03-0a8654f61734.png">
+
+Email Input
+<img width="1438" alt="Screenshot 2022-08-06 at 6 12 17 PM" src="https://user-images.githubusercontent.com/73584740/183249753-3b1ee4c6-2f2e-4f41-a5d6-db52c3f7e454.png">
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -61,9 +79,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
